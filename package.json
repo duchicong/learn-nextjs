@@ -2,8 +2,8 @@
   "private": true,
   "scripts": {
     "build": "next build",
-    "dev": "next dev",
-    "start": "next start",
+    "dev": "next dev -p 4044",
+    "start": "next start -p 4044",
     "seed": "node -r dotenv/config ./scripts/seed.js"
   },
   "dependencies": {
